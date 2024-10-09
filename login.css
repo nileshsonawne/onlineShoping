@@ -52,6 +52,7 @@ header .navbar {
 }
 
 .search-bar button {
+    margin-left: 10px;
     padding: 10px 20px;
     background-color: #180e4cc2;
     border: 2px solid rgba(32, 57, 140, 0.914);
@@ -182,19 +183,8 @@ button:hover {
     background-color: #1ab82a;
 }
 
-.footer {
-    margin-top: 20px;
-    font-size: 14px;
-}
+/* footer */
 
-.footer a {
-    color: #2874f0;
-    text-decoration: none;
-}
-
-.footer a:hover {
-    text-decoration: underline;
-}
 .footer-bar{
     background-color:#0e1927 ;
      
@@ -204,15 +194,16 @@ button:hover {
     text-align: center;
     display: block;
     padding: 15px;
-    line-height: 30px;
+    
+    line-height: 9px;
     font-size: large;
     color: #777;
     background-color: #0e3156;
   }
   .footer-butten{
 
-    width: 120px;
-    height: 40px;
+    width: 210px;
+    height: 50px;
     border: black;
     color: #d35400;
     border-radius: 50px;
@@ -272,4 +263,16 @@ button:hover {
 }
 .footer-bottom p{
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2rem;
+    color: #d35400;
+
+}
+.footer-bottom a{
+    text-decoration: none;
+    font-size:1.2rem;
+    color: #d35400;
+}
+
+.footer-bottom a:hover{
+    color: aliceblue;
 }
